@@ -9166,7 +9166,17 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .chris-header-box a {
-  color: #fefefe;
+  background-color: #ffdb3a;
+}
+
+.chris-header-box:hover {
+  color: #212529 !important;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.chris-header-box:active {
+  color: #212529 !important;
 }
 
 .chris-header-box .navbar-text a {
