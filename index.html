@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
 
 <head>
   <meta charset="UTF-8">
@@ -9,18 +9,21 @@
   <link rel="stylesheet" href="./dist/style/all.min.css">
 </head>
 <style lang="">
-    a{
+  a {
     color: #fefefe;
-    }
-    a:hover{
+  }
+
+  a:hover {
     color: #999999 !important;
     transition: 300ms;
   }
-  a:active{
+
+  a:active {
     color: #999999 !important;
 
-  } 
+  }
 </style>
+
 <body class="bg-gray-900">
   <div id="stars"></div>
   <div id="stars2"></div>
@@ -41,7 +44,8 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="https://chrisc0210.github.io/2021/#about">ABOUT <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="https://chrisc0210.github.io/2021/#about">ABOUT <span
+              class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://chrisc0210.github.io/2021/#skill">SKILL</a>
@@ -50,12 +54,18 @@
           <a class="nav-link" href="#EXPERIENCE">EXPERIENCE</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="https://chrisc0210.github.io/2021/#works">WORKS</a>
+          <a class="nav-link ch-pink" href="https://chrisc0210.github.io/2021/#works">WORKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto: chiandeye@gmail.com">Get In Touch</a>
         </li>
       </ul>
-      <span class="navbar-text ch-pink">
+      <!-- <span class="navbar-text ch-pink">
         <a href="mailto: chiandeye@gmail.com">Get In Touch</a>
-      </span>
+      </span> -->
+      <div class="ml-lg-2 ml-sm-0">
+        <button class="btn btn-outline-light" onclick="change_lang()">Change Language</button>
+      </div>
     </div>
   </nav>
   <!-- header -->
@@ -66,15 +76,78 @@
     </div>
     <div class="mouse"><span></span></div>
   </section>
-  <section class="container col-10 white banner-box" id="about">
-    <div class="banner-text">
-      <h2 class="text-center text-o-7-4-7">About</h2>
-      <!-- <h4 class="text-center text-o-4-4-4">#F2E</h4> -->
-      <h4 class="text-center text-o-4-4-4">#Web Designer</h4>
-      <h4 class="text-center text-o-4-4-4">#UI/UX Designer</h4>
-      <h4 class="text-center text-o-4-4-4">#Cat Lover🐱</h4>
+  <section class="container mt-4 col-lg-10 col-sm-12 pt-2 pb-2 white text-r-1-4-1 work-card-box">
+    <h2 class="text-center text-o-5-4-5" id="works">WORKS</h2>
+    <!-- project -->
+    <div class="d-flex justify-content-center row mb-4">
+      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
+        <a href="./work-1.html">
+          <img src="./assets/img/work/nb-banner01.jpg" alt="">
+        </a>
+      </div>
+      <div class="col col-lg-6 col-sm-12">
+        <div class="text-o-3-6-3 ">
+          <a href="./work-1.html">New Balance DMS</a>
+        </div>
+        <div>- Web design</div>
+        <div>- include wireframe, Responsive design, HTML layout</div>
+        <div>- Tool : Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
+        <div>- Language : HTML, CSS, JavaScript</div>
+      </div>
     </div>
-    <div class="mouse" id="skill"><span></span></div>
+    <!-- project -->
+    <!-- project -->
+    <div class="d-flex justify-content-center row mb-4">
+      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
+        <a href="./work-2.html">
+          <img src="./assets/img/work/IMG_1335.JPG" alt="">
+        </a>
+      </div>
+      <div class="col col-lg-6 col-sm-12">
+        <div class="text-o-3-6-3 ">
+          <a href="./work-2.html">St. Paul's College</a>
+        </div>
+        <div>- Web design</div>
+        <div>- include wireframe, Style Guide, Responsive design, HTML layout</div>
+        <div>- Tool : Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
+        <div>- Language : HTML, CSS, JavaScript</div>
+      </div>
+    </div>
+    <!-- project -->
+    <!-- project -->
+    <div class="d-flex justify-content-center row mb-4">
+      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
+        <a href="https://chrisc0210.github.io/aussiePremier" target="_blank">
+          <img src="./assets/img/work/img-homePage-banner.png" alt="">
+        </a>
+      </div>
+      <div class="col col-lg-6 col-sm-12">
+        <div class="text-o-2-6-2">
+          <a href="https://chrisc0210.github.io/aussiePremier" target="_blank">Aussiepremier</a>
+        </div>
+        <div>- Web design</div>
+        <div>- include wireframe, Style Guide, Responsive design, HTML layout</div>
+        <div>- Tool : Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
+        <div>- Language : HTML, CSS, JavaScript</div>
+      </div>
+    </div>
+    <!-- project -->
+    <!-- project -->
+    <div class="d-flex justify-content-center row mb-4">
+      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
+        <a href="https://chrisc0210.github.io/chiandeye/" target="_blank">
+          <img src="./assets/img/palnt.svg" alt="">
+        </a>
+      </div>
+      <div class="col col-lg-6 col-sm-12">
+        <div class="text-o-2-6-2">
+          <a href="https://chrisc0210.github.io/chiandeye/" target="_blank">ILLUSTRATION</a>
+        </div>
+        <div>- Doodle</div>
+        <div>- Tool : Sketch, Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
+      </div>
+    </div>
+    <!-- project -->
   </section>
   <section class="container mt-4 col-12 col-lg-8 white text-r-1-4-1">
     <h2 class="text-center text-o-5-4-5">SKILL</h2>
@@ -105,79 +178,17 @@
       </div>
     </div>
   </section>
-  <section class="container mt-4 col-lg-10 col-sm-12 pt-2 pb-2 white text-r-1-4-1 work-card-box">
-    <h2 class="text-center text-o-5-4-5" id="works">WORKS</h2>
-    <!-- project -->
-    <div class="d-flex justify-content-center row mb-4">
-      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
-        <a href="./work-1.html">
-          <img src="./assets/img/work/nb-banner01.jpg" alt="">
-        </a>
-      </div>
-      <div class="col col-lg-6 col-sm-12">
-        <div class="text-o-3-6-3 ">
-          <a href="./work-1.html">New Balance DMS</a>
-        </div>
-        <div>- Web design</div>
-        <div>- include wireframe, Responsive design, HTML layout</div>
-        <div>- Tool :  Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
-        <div>- Language :  HTML, CSS, JavaScript</div>
-      </div>
+  <section class="container col-10 white banner-box" id="about">
+    <div class="banner-text">
+      <h2 class="text-center text-o-7-4-7">About</h2>
+      <!-- <h4 class="text-center text-o-4-4-4">#F2E</h4> -->
+      <h4 class="text-center text-o-4-4-4">#Web Designerr</h4>
+      <h4 class="text-center text-o-4-4-4">#UI/UX Designer</h4>
+      <h4 class="text-center text-o-4-4-4">#Cat Lover🐱</h4>
     </div>
-    <!-- project -->
-    <!-- project -->
-    <div class="d-flex justify-content-center row mb-4">
-      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
-        <a href="./work-2.html">
-          <img src="./assets/img/work/IMG_1335.JPG" alt="">
-        </a>
-      </div>
-      <div class="col col-lg-6 col-sm-12">
-        <div class="text-o-3-6-3 ">
-          <a href="./work-2.html">St. Paul's College</a>
-        </div>
-        <div>- Web design</div>
-        <div>- include wireframe, Style Guide, Responsive design, HTML layout</div>
-        <div>- Tool :  Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
-        <div>- Language :  HTML, CSS, JavaScript</div>
-      </div>
-    </div>
-    <!-- project -->
-    <!-- project -->
-    <div class="d-flex justify-content-center row mb-4">
-      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
-        <a href="https://chrisc0210.github.io/aussiePremier" target="_blank">
-          <img src="./assets/img/work/img-homePage-banner.png" alt="">
-        </a>
-      </div>
-      <div class="col col-lg-6 col-sm-12">
-        <div class="text-o-2-6-2">
-          <a href="https://chrisc0210.github.io/aussiePremier" target="_blank">Aussiepremier</a>
-        </div>
-        <div>- Web design</div>
-        <div>- include wireframe, Style Guide, Responsive design, HTML layout</div>
-        <div>- Tool :  Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
-        <div>- Language :  HTML, CSS, JavaScript</div>
-      </div>
-    </div>
-    <!-- project -->
-    <!-- project -->
-    <div class="d-flex justify-content-center row mb-4">
-      <div class="col-lg-4 col-sm-12 work-card-img mb-2">
-        <a href="https://chrisc0210.github.io/chiandeye/" target="_blank">
-          <img src="./assets/img/palnt.svg" alt="">
-        </a>
-      </div>
-      <div class="col col-lg-6 col-sm-12">
-        <div class="text-o-2-6-2">
-          <a href="https://chrisc0210.github.io/chiandeye/" target="_blank">ILLUSTRATION</a>
-        </div>
-        <div>- Doodle</div>
-        <div>- Tool : Sketch, Adobe XD, Adobe Photoshop, Adobe Illustrator</div>
-      </div>
-    </div>
-    <!-- project -->
+    <!-- <div class="mouse" id="skill"><span></span></div> -->
   </section>
+
   <section class="d-flex justify-content-center container mt-4 col-lg-10 col-sm-12 pt-2 pb-2 work-card-box">
     <h2 class="text-center text-o-5-4-5"><a href="mailto: chiandeye@gmail.com">Get In Touch</a></h2>
   </section>
@@ -196,9 +207,35 @@
         $('.animated-icon1').toggleClass('open');
       });
       //scroll
+      //change lang
+      var dictionary = {
+        'greet': {
+          'it': 'Ciao',
+          'en': 'Hello',
+          'fr': 'Salut',
+        }
+      };
+      var langs = ['it', 'en', 'fr'];
+      var current_lang_index = 0;
+      var current_lang = langs[current_lang_index];
 
+      window.change_lang = function () {
+        current_lang_index = ++current_lang_index % 3;
+        current_lang = langs[current_lang_index];
+        translate();
+      }
+
+      function translate() {
+        $("[data-translate]").each(function () {
+          var key = $(this).data('translate');
+          $(this).html(dictionary[key][current_lang] || "N/A");
+        });
+      }
+
+      translate();
       //end
     });
+
   </script>
 </body>
 
