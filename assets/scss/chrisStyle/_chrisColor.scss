@@ -72,5 +72,9 @@ $ch-pink-600: #DD9292 !default;
   opacity: 0.2;
 }
 .bg-gray-900{
-  background-color: $gray-900;
+  //background-color: $gray-900;
+  background-color: $black;
+}
+.bg-black{
+  background-color: black;
 }
