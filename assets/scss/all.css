@@ -9169,10 +9169,6 @@ a.text-dark:focus, a.text-dark:hover {
   height: 100%;
 }
 
-.chris-header-box a {
-  background-color: #ffdb3a;
-}
-
 .chris-header-box:hover {
   color: #212529 !important;
   -webkit-transition: 300ms;
